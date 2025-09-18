@@ -1,0 +1,155 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    background: #f7fafc;
+    color: #222;
+}
+
+.hero {
+    background: url('kerala_hills.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 8px #222;
+}
+
+.hero-text {
+    background: rgba(0,0,0,0.3);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #205d35;
+}
+
+.destinations .dest-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.dest-card {
+    height: 240px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(32,93,53,0.12);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #222;
+    transition: transform 0.2s;
+}
+
+.dest-card:hover {
+    transform: scale(1.03) translateY(-4px);
+}
+
+.brochures .brochure-card {
+    display: flex;
+    background: #eaffe9;
+    border-radius: 16px;
+    padding: 1rem;
+    margin: 2rem auto 0 auto;
+    max-width: 820px;
+    box-shadow: 0 2px 8px rgba(32,93,53,0.08);
+    align-items: center;
+}
+.brochures img {
+    height: 160px;
+    border-radius: 12px;
+    margin-right: 2rem;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.event-card {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(32,93,53,0.12);
+    text-shadow: 1px 1px 4px #111;
+}
+
+.gallery .gallery-item {
+    display: flex;
+    max-width: 700px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(32,93,53,0.10);
+}
+
+.gallery img {
+    width: 300px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    object-fit: cover;
+}
+
+.gallery-desc {
+    padding: 1.2rem;
+}
+
+footer {
+    background: #222;
+    color: #fafafa;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.2rem;
+}
+.footer-menu h4 {
+    margin-bottom: 0.4rem;
+    color: #aed581;
+}
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-menu li {
+    margin-bottom: 0.5rem;
+}
+.footer-end {
+    text-align: center;
+    margin-top: 1rem;
+    opacity: 0.8;
+    font-size: 0.95rem;
+}
