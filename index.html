@@ -1,115 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kerala Tourism - Home</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gateway to Kerala - Kerala Tourism</title>
 </head>
 <body>
-    <!-- Hero Banner -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Gateway to Kerala</h1>
-            <p>Let God's Own Country inspire your next journey</p>
-        </div>
-    </section>
 
-    <!-- Popular Destinations -->
-    <section class="destinations">
-        <h2>Popular Destinations</h2>
-        <div class="dest-grid">
-            <div class="dest-card" style="background-image: url('athirappilly.jpg');">
-                <span>Athirappilly</span>
-            </div>
-            <div class="dest-card" style="background-image: url('munnar.jpg');">
-                <span>Munnar</span>
-            </div>
-            <div class="dest-card" style="background-image: url('kovalam.jpg');">
-                <span>Kovalam</span>
-            </div>
-            <div class="dest-card" style="background-image: url('kavvayi.jpg');">
-                <span>Kavvayi Backwaters</span>
-            </div>
-        </div>
-    </section>
+<header class="hero" role="banner" aria-label="Kerala hills scenic hero image">
+  <h1>Gateway to Kerala</h1>
+  <p>Discover the lush hills, serene backwaters, and vibrant culture. Your adventure awaits.</p>
+</header>
 
-    <!-- E-Brochures -->
-    <section class="brochures">
-        <h2>E-Brochures</h2>
-        <p>These digital guides serve as invaluable tools for travellers planning their Kerala vacations.</p>
-        <div class="brochure-card">
-            <img src="wayanad.jpg" alt="Wayanad"/>
-            <div>
-                <h3>Wayanad</h3>
-                <p>Discover Wayanad, the enchanting land of paddy fields in Kerala's Western Ghats. With its lush greenery, misty hills, and rich biodiversity, Wayanad offers a perfect blend of adventure, heritage, and tranquility for nature lovers and travelers.</p>
-            </div>
-        </div>
-    </section>
+<main>
 
-    <!-- Events -->
-    <section class="events">
-        <h2>Events</h2>
-        <div class="event-grid">
-            <div class="event-card" style="background-image: url('holy_cross.jpg');">
-                <span>Feast of Holy Cross Shrine<br>From 05 Sept</span>
-            </div>
-            <div class="event-card" style="background-image: url('padayani.jpg');">
-                <span>Neelamperoor Padayani<br>On 21 Sept</span>
-            </div>
-            <div class="event-card" style="background-image: url('navratri.jpg');">
-                <span>Navarathri Festival<br>From 22 Sept</span>
-            </div>
-        </div>
-    </section>
+  <section class="destinations" aria-labelledby="destinations-heading">
+    <h2 id="destinations-heading">Popular Destinations</h2>
+    <div class="destinations-grid">
+      <article class="destination-card dest-athirappilly" tabindex="0" aria-label="Athirappilly destination">
+        <span>Athirappilly</span>
+      </article>
+      <article class="destination-card dest-munnar" tabindex="0" aria-label="Munnar destination">
+        <span>Munnar</span>
+      </article>
+      <article class="destination-card dest-kovalam" tabindex="0" aria-label="Kovalam destination">
+        <span>Kovalam</span>
+      </article>
+      <article class="destination-card dest-kavvayi" tabindex="0" aria-label="Kavvayi Backwaters destination">
+        <span>Kavvayi Backwaters</span>
+      </article>
+    </div>
+  </section>
 
-    <!-- Photo Gallery -->
-    <section class="gallery">
-        <h2>Photo Gallery</h2>
-        <div class="gallery-item">
-            <img src="ponnani_beach.jpg" alt="Ponnani Beach">
-            <div class="gallery-desc">
-                <h3>Ponnani Beach</h3>
-                <p>The sandy shores and calm ambience of Ponnani Beach make it an ideal getaway destination for families. The mighty lighthouse offering a breathtaking view adds an extra layer of beauty.</p>
-            </div>
-        </div>
-    </section>
+  
+  <section class="e-brochures" aria-labelledby="ebrochures-heading">
+    <h2 id="ebrochures-heading">E-Brochures</h2>
+    <article class="brochure-card" role="region" aria-label="Featured travel guide for Wayanad">
+      <div class="brochure-thumb" aria-hidden="true"></div>
+      <div class="brochure-content">
+        <h3>Wayanad Travel Guide</h3>
+        <p>Explore the misty hills, ancient caves, and rich wildlife of Wayanad. This comprehensive guide helps you plan your perfect getaway to Kerala’s green paradise.</p>
+      </div>
+    </article>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-menu">
-            <div>
-                <h4>Explore</h4>
-                <ul>
-                    <li>Classification Schemes</li>
-                    <li>Governmental Affairs</li>
-                    <li>Official Mobile App</li>
-                    <li>Newsletter</li>
-                    <li>Responsible Tourism</li>
-                    <li>Ecotourism</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Travel Hub</h4>
-                <ul>
-                    <li>Kerala at a Glance</li>
-                    <li>Travel Care</li>
-                    <li>Plan Your Trip</li>
-                    <li>Travel Tips</li>
-                    <li>Accommodation</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Nature</h4>
-                <ul>
-                    <li>Hills</li>
-                    <li>Backwaters</li>
-                    <li>Beaches</li>
-                    <li>Wildlife</li>
-                    <li>Waterfalls</li>
-                </ul>
-            </div>
+ 
+  <section class="events" aria-labelledby="events-heading">
+    <h2 id="events-heading">Events</h2>
+    <div class="events-row" role="list">
+      <article class="event-card event-holycross" role="listitem" tabindex="0" aria-label="Feast of Holy Cross Shrine event">
+        <div class="event-overlay"></div>
+        <div class="event-info">
+          <h3>Feast of Holy Cross Shrine</h3>
+          <time datetime="2024-09-14">September 14, 2024</time>
         </div>
-        <p class="footer-end">All rights reserved &copy; Kerala Tourism</p>
-    </footer>
-</body>
-</html>
+      </article>
+      <article class="event-card event-padayani" role="listitem" tabindex="0" aria-label="Neelamperoor Padayani event">
+        <div class="event-overlay"></div>
+        <div class="event-info">
+          <h3>Neelamperoor Padayani</h3>
+          <time datetime="2024-02-20">February 20, 2024</time>
+        </div>
+      </article>
+      <article class="event-card event-navarathri" role="listitem" tabindex="0" aria-label="Navarathri Festival event">
+        <div class="event-overlay"></div>
+        <div class="event-info">
+          <h3>Navarathri Festival</h3>
+          <time datetime="2024-10-01">October 1-10, 2024</time>
+        </div>
+      </article>
+    </div>
+  </section>
+
+ 
+  <section class="photo-gallery" aria-labelledby="gallery-heading">
+    <h2 id="gallery-heading" class="visually-hidden">Photo Gallery</h2>
+    <div class="gallery-image" role="img" aria-label="Scenic view of Ponnani Beach"></div>
+    <div class="gallery-description">
+      <h3>Ponnani Beach</h3>
+      <p>Experience the tranquil beauty of Ponnani Beach, where golden sands meet the Arabian Sea. A perfect spot for sunset views, local fishing culture, and peaceful walks along the shore.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-container" role="contentinfo">
+    <nav class="footer-column" aria-labelledby="explore-heading">
+      <h3 id="explore-heading">Explore</h3>
+      <ul>
+        <li><a href="#" tabindex="0">Hill Stations</a></li>
+        <li><a href="#" tabindex="0">Backwaters</a></li>
+        <li><a href="#" tabindex="0">Beaches</a></li>
+        <li><a href="#" tabindex="0">Wildlife</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-column" aria-labelledby="travelhub-heading">
+      <h3 id="travelhub-heading">Travel Hub</h3>
+      <ul>
+        <li><a href="#" tabindex="0">Travel Guides</a></li>
+        <li><a href="#" tabindex="0">E-Brochures</a></li>
+        <li><a href="#" tabindex="0">Events Calendar</a></li>
+        <li><a href="#" tabindex="0">FAQs</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-column" aria-labelledby="nature-heading">
+      <h3 id="nature-heading">Nature</h3>
+      <ul>
+        <li><a href="#" tabindex="0">Wildlife Sanctuaries</a></li>
+        <li><a href="#" tabindex="0">Botanical Gardens</a></li>
+        <li><a href="#" tabindex="0">Waterfalls</a></li>
+        <li><a href="#" tabindex="0">National Parks</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer-bottom" aria-label="Copyright notice">
+    &copy; 2024 Kerala Tourism. All rights reserved.
+  </div>
+</footer>
+
+
+ 
